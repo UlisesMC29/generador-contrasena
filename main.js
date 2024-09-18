@@ -43,7 +43,7 @@ function generar(){//funcion que dará la funcionalidad al boton (todo lo realiz
     if(password.length < 8){
         // alert("La cantidad de caracteres tiene que ser mayor que 8");//funcion de Javascript que manda un mensaje flotante en el navegador
         document.getElementById('nivel').outerHTML = "<h3 class='nivel' id='nivel'><p style='color: black;'>NO VÁLIDA</p></h3>";
-        document.getElementById('alert_nivel').outerHTML = "<h3 class='alert_nivel' id='alert_nivel'>LA CONTRASEÑA DEBE CONTENER AL MENOS 8 CARACTERES</h3>";
+        document.getElementById('alert_nivel').outerHTML = "<h3 class='alert_nivel' id='alert_nivel' style='background-color: red;'>LA CONTRASEÑA DEBE CONTENER AL MENOS 8 CARACTERES</h3>";
 
 
     }else{
