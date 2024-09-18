@@ -128,12 +128,41 @@ h1 {
     background-color: #FFF;
     border: none;
     color: #1875E8;
-    margin: 50px;
+    margin: 50px 50px 0 50px;
     padding: 2rem;
     font-size: 24px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
 }
 
+.container_nContra{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.nivel_contra{
+    font-family: 'Inter', sans-serif;
+    margin-left: 50px;
+}
+
+.nivel{
+    padding-left: 6px;
+    
+}
+
+.alert_nivel{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 12px;
+    margin: 30px 0px 0px 80px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.alert_nivel_no{
+    display: none;
+}
 
 
