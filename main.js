@@ -77,6 +77,13 @@ function generar(){//funcion que dará la funcionalidad al boton (todo lo realiz
 }
 
 
+// Funcion para limpiar el input de contraseña
 
+function limpiar(){
+    document.getElementById('contrasena').value = "";
+    document.getElementById('alert_nivel').outerHTML = "<h3 class='alert_nivel_no' id='alert_nivel'>VERIFICADO</h3>";
+    document.getElementById('nivel').outerHTML = "<h3 class='nivel' id='nivel'><p></p></h3>";
+    document.getElementById('cantidad').value = "";
 
+}
 
